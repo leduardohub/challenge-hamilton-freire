@@ -12,11 +12,11 @@
             <resource>Magento_Backend::sales</resource>
             <group id="general" type="text" translate="label" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="10">
                 <label>General</label>
-                <field id="enabled" type="select" sortOrder="10" showInDefault="1" translate="label">
+                <field id="enabled" type="select" sortOrder="10" showInDefault="1" translate="label"  canRestore="1">
                     <label>Enabled</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="device_list" type="text" translate="label" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="20">
+                <field id="device_list" type="text" translate="label" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="20" canRestore="1">
                     <label>Device list</label>
                     <validate>required-entry</validate>
                     <comment>List the devices separated by commas, e.g.: Web, Android, IOS</comment>

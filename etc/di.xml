@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+@copyright  Copyright (c) 2023 Digital Hub (https://digitalhub.com.br)
+@author     Dev Team <devteam@digitalhub.com.br>
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="DigitalHub\RuleByDevice\Api\System\ConfigInterface"
+                type="DigitalHub\RuleByDevice\Model\System\Config"/>
+</config>
